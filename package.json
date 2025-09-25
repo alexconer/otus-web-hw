@@ -1,4 +1,11 @@
 {
   "name": "otus-web-hw",
-  "packageManager": "yarn@4.10.3"
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "ping": "node src/ping.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.36.0"
+  }
 }
